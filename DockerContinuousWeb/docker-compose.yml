@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  dockercontinuousweb:
+    image: dockercontinuousweb
+    build:
+      context: ./DockerContinuousWeb
+      dockerfile: Dockerfile
